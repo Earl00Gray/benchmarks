@@ -5,10 +5,12 @@ Systems:
 Dependencies:
     gnuplot
 instaling Debian and Ubuntu:
+```
     $ sudo apt-get update
     $ sudo apt-get install gnuplot
-
+```
 functions:
+```
     // print summary to console
     bool sum_console(int iter_count, std::vector<std::pair<std::pair<std::string, Fn>, Args...>> fns);
     bool sum_console(int iter_count, Fn fn, Args ...args);
@@ -34,10 +36,10 @@ functions:
         int iter_count, const std::string &path_file, std::vector<std::pair<std::pair<std::string, Fn>, Args...>> fns
     );
     bool gnuplot_png(int iter_count, const std::string &fn_name, Fn fn, Args ...args);
-    
+ ```   
 
 example usage:
-
+```
 #include "benchmark.hpp"
 #include "example.hpp"
 #include <vector>
@@ -69,3 +71,4 @@ int main(int argc, char **argv) {
 
     return EXIT_SUCCESS;
 } 
+```
