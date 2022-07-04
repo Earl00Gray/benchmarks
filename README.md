@@ -72,3 +72,4 @@ int main(int argc, char **argv) {
     return EXIT_SUCCESS;
 } 
 ```
+![example](https://user-images.githubusercontent.com/108435083/177057320-0967aa70-2b98-47f6-a579-83abe82bd0f1.png)
